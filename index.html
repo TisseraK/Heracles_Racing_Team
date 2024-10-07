@@ -32,6 +32,29 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <html>
+  ...
+  <body>
+    <!-- Add this line -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script src="main.dart.js" type="application/javascript"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyDm4KQQFwDufGDV3CYJUd59NOQf52HCG88",
+  authDomain: "heracles-team-racing.firebaseapp.com",
+  projectId: "heracles-team-racing",
+  storageBucket: "heracles-team-racing.appspot.com",
+  messagingSenderId: "905774963900",
+  appId: "1:905774963900:web:5dcfae9ca6a0b0aa9c04b9",
+  measurementId: "G-GXQECHSE1W"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
